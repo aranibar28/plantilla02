@@ -80,14 +80,14 @@ p a {
 img {
   border-radius: 5px;
   margin: 15px;
-  width: 400px;
+  width: 350px;
   filter: drop-shadow(5px 5px 5px #444);
 }
 
 .portafolio {
   object-fit: cover;
-  width: 300px;
-  height: 300px;
+  width: 250px;
+  height: 250px;
 }
 
 .imagen {
