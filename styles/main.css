@@ -1,0 +1,109 @@
+body {
+  text-align: center;
+  background-color: lavender;
+  font-family: Verdana, Tahoma, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: cornflowerblue;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 20px;
+  background: cornflowerblue;
+  margin: 0;
+  padding: 20px;
+}
+
+ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style-type: none;
+  margin: 15px;
+}
+
+li a {
+  text-decoration: none;
+  color: white;
+  margin: 0px 15px;
+}
+
+li a:hover {
+  text-decoration: none;
+  color: #87119a;
+  border-bottom: 3px solid #87119a;
+}
+
+strong a {
+  text-decoration: none;
+  color: #87119a;
+  font-family: broadway;
+  font-size: 25px;
+  padding: 0px 20px;
+}
+
+h2 {
+  text-align: left;
+  color: #87119a;
+  border-left: 5px solid #87119a;
+  margin-left: 20px;
+}
+
+P {
+  text-align: left;
+  margin-left: 20px;
+}
+
+p a {
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.left {
+  text-align: left;
+  margin-left: 20px;
+}
+
+.right {
+  text-align: right;
+  margin-left: 20px;
+}
+
+img {
+  border-radius: 5px;
+  margin: 15px;
+  width: 400px;
+  filter: drop-shadow(5px 5px 5px #444);
+}
+
+.portafolio {
+  object-fit: cover;
+  width: 300px;
+  height: 300px;
+}
+
+.imagen {
+  width: 600px;
+}
+
+.container {
+  overflow: hidden;
+}
+
+.a {
+  float: left;
+  padding-left: 150px;
+}
+
+.b {
+  float: left;
+  padding-top: 100px;
+}
